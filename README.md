@@ -54,9 +54,9 @@ Currently, my implementation never creates or removes divs, it only adds classes
 
 This implementation doesn't work with live preview.
 
-## Installation
+## Building from source
 
-Clone the repository into the folder `<your-vault>/.obsdian/plugins/`. Remember to enable the plugin in the settings page.
+Clone the repository into the folder `<your-vault>/.obsdian/plugins/`. Install NodeJS if necessary, then run `npm i` followed by `npm run dev` then kill the process (`^C`) once you see the message `[watch] build finished, watching for changes...`. Remember to enable the plugin in the settings page.
 
 The plugin includes an example of a custom class that can be used to test the installation, `-cc-blue`. Try viewing this markdown in reading mode:
 ```
