@@ -51,3 +51,14 @@ hello
 </table>
 
 Currently, my implementation never creates or removes divs, it only adds classes and sets elements to be hidden. This makes the implementation much simpler/faster, although it is unable to add classes to certain entire objects, like tables, lists, and callouts (which I do not need for my vault). It _is_ able to add classes to entire paragraphs and headers.
+
+This implementation doesn't work with live preview.
+
+## Installation
+
+Clone the repository into the folder `<your-vault>/.obsdian/plugins/`. Remember to enable the plugin in the settings page.
+
+The plugin includes an example of a custom class that can be used to test the installation, `-cc-blue`. Try viewing this markdown in reading mode:
+```
+The word **`class: -cc-blue`test** is highlighted in blue.
+```
