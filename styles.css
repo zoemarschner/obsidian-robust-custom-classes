@@ -1,8 +1,5 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+/* example style to test custom classes */
+.-cc-blue {
+	background-color: #489acc66;
+	font-weight: normal;
+}
